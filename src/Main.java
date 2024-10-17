@@ -155,6 +155,6 @@ public class Main {
     }
 
     public static String limitLength(String expression) {
-        return expression.length() > 40 ? expression.substring(0, 40) + "..." : expression;
+        return expression.length() > 40 ? expression.substring(0, 41) + "..." : expression;
     }
 }
